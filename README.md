@@ -12,11 +12,14 @@ Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of
 Medical AI research center, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China 
 
  
-### Table
 
-<img src="https://github.com/yqx7150/HGGDP/tree/master/hggdp_rec/sample/fig6.png" width = "400" height = "450">  
+<img src="https://github.com/yqx7150/HGGDP/master/hggdp_rec/sample/fig6.png" width = "400" height = "450"> 
+
+Performance exhibition of “multi-view noise” strategy. (a) Training sliced score matching (SSM) loss and validation loss for each iteration. (b) Image quality comparison on the brain dataset at 15% radial sampling: Reconstruction images, error maps (Red) and zoom-in results (Green).
 
 <img src="https://github.com/yqx7150/HGGDP/tree/master/hggdp_rec/sample/fig7.png" width = "400" height = "450"> 
+
+
 
 The flowchart illustration of REDEAP for single-channel CT reconstruction
 ![repeat-REDAEP](https://github.com/yqx7150/REDAEP/blob/master/figs/Iteration.png)
