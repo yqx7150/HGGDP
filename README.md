@@ -23,9 +23,13 @@ Pipeline of sampling from the high-dimensional noisy data distribution with mult
 
 
 ## Reconstruction Results by Various Methods at 85% 2D Random Undersampling.
-![](./hggdp_rec/sample/fig11.png)  
+<img src="https://github.com/yqx7150/HGGDP/tree/master/hggdp_rec/sample/fig11.png" width = "400" height = "450"> 
 
 Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 . Top: Reference, reconstruction by DLMRI, PANO, FDLCP; Bottom: Reconstruction by NLR-CS, DC-CNN, EDAEPRec, HGGDPRec. Green and red boxes illustrate the zoom in results and error maps, respectively.
+
+## Table
+<img src="https://github.com/yqx7150/HGGDP/tree/master/hggdp_rec/sample/table1.png" width = "400" height = "450"> 
+RECONSTRUCTION PSNR, SSIM AND HFEN VALUES OF THREE TEST IMAGES AT VARIOUS SAMPLING TRAJECTORIES AND UNDERSAMPLING PER-CENTAGES. 
 
 ## Test Data
 In file './test_data_31', 31 complex-valued MRI data with size of 256x256 were acquired by using a 3D fast-spin-echo (FSE) sequence with T2 weighting from a 3.0T whole body MR system (SIEMENS MAGNETOM TrioTim).
