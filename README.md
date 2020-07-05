@@ -1,7 +1,9 @@
 # HGGDP
 
-**Paper**: HGGDP: Homotopic Gradients of Generative Density Priors for MR Image Reconstruction 
+**Paper**: HGGDP: Homotopic Gradients of Generative Density Priors for MR Image Reconstruction
+
 **Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yu Guan, Dong Liang, Yuhao Wang, Qiegen Liu 
+
 Date : 11/2018  
 Version : 1.0  
 The code and the algorithm are for non-comercial use only.  
