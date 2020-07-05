@@ -11,6 +11,16 @@ Copyright 2018, Department of Electronic Information Engineering, Nanchang Unive
 Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China    
 Medical AI research center, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China 
 
+## Training
+```bash
+python3 separate_siat.py --runner SIAT_TRAIN --config siat_config.yml --checkpoint your save path
+```
+
+## Test
+```bash
+python3 separate_siat.py --runner SIAT_MULTICHANNEL --config siat_config.yml --model hggdp --test
+```
+
  <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig6.png" width = "400" height = "450">  </div>
  
 Performance exhibition of “multi-view noise” strategy. (a) Training sliced score matching (SSM) loss and validation loss for each iteration. (b) Image quality comparison on the brain dataset at 15% radial sampling: Reconstruction images, error maps (Red) and zoom-in results (Green).
@@ -28,6 +38,10 @@ Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 .
 ## Table
 <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/table1.png"> </div>
 RECONSTRUCTION PSNR, SSIM AND HFEN VALUES OF THREE TEST IMAGES AT VARIOUS SAMPLING TRAJECTORIES AND UNDERSAMPLING PER-CENTAGES. 
+
+## Checkpoints
+We provide pretrained checkpoints.you can download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1QIjU8kRUQ3i2pT6PvROlKQ). 
+key number is "awn0" 
 
 ## Test Data
 In file './test_data_31', 31 complex-valued MRI data with size of 256x256 were acquired by using a 3D fast-spin-echo (FSE) sequence with T2 weighting from a 3.0T whole body MR system (SIEMENS MAGNETOM TrioTim).
