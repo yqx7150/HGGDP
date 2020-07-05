@@ -15,18 +15,18 @@ Medical AI research center, Shenzhen Institutes of Advanced Technology, Chinese 
  
 Performance exhibition of “multi-view noise” strategy. (a) Training sliced score matching (SSM) loss and validation loss for each iteration. (b) Image quality comparison on the brain dataset at 15% radial sampling: Reconstruction images, error maps (Red) and zoom-in results (Green).
 
- <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig7.png" width = "400" height = "450"> </div>
+ <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig7.png"> </div>
 
 Pipeline of sampling from the high-dimensional noisy data distribution with multi-view noise and intermediate samples. (a) Conceptual dia-gram of the sampling on high-dimensional noisy data distribution with multi-view noise. (b) Intermediate samples of annealed Langevin dynamics.
 
 
 ## Reconstruction Results by Various Methods at 85% 2D Random Undersampling.
-<img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig11.png" width = "400" height = "450"> 
+<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig11.png"> </div>
 
 Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 . Top: Reference, reconstruction by DLMRI, PANO, FDLCP; Bottom: Reconstruction by NLR-CS, DC-CNN, EDAEPRec, HGGDPRec. Green and red boxes illustrate the zoom in results and error maps, respectively.
 
 ## Table
-<img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/table1.png" width = "400" height = "450"> 
+<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/table1.png"> </div>
 RECONSTRUCTION PSNR, SSIM AND HFEN VALUES OF THREE TEST IMAGES AT VARIOUS SAMPLING TRAJECTORIES AND UNDERSAMPLING PER-CENTAGES. 
 
 ## Test Data
