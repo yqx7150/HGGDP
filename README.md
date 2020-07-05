@@ -2,7 +2,7 @@
 
 **Paper**: HGGDP: Homotopic Gradients of Generative Density Priors for MR Image Reconstruction
 
-**Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yu Guan, Dong Liang, Yuhao Wang, Qiegen Liu 
+**Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yu Guan, Dong Liang, Yuhao Wang, Qiegen Liu*
 
 Date : 6/2020  
 Version : 1.0  
