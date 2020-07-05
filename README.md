@@ -19,10 +19,13 @@ Performance exhibition of “multi-view noise” strategy. (a) Training sliced s
 
 <img src="https://github.com/yqx7150/HGGDP/tree/master/hggdp_rec/sample/fig7.png" width = "400" height = "450"> 
 
+Pipeline of sampling from the high-dimensional noisy data distribution with multi-view noise and intermediate samples. (a) Conceptual dia-gram of the sampling on high-dimensional noisy data distribution with multi-view noise. (b) Intermediate samples of annealed Langevin dynamics.
 
 
-The flowchart illustration of REDEAP for single-channel CT reconstruction
-![repeat-REDAEP](https://github.com/yqx7150/REDAEP/blob/master/figs/Iteration.png)
+## Reconstruction Results by Various Methods at 85% 2D Random Undersampling.
+![](./hggdp_rec/sample/fig11.png)  
+
+Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 . Top: Reference, reconstruction by DLMRI, PANO, FDLCP; Bottom: Reconstruction by NLR-CS, DC-CNN, EDAEPRec, HGGDPRec. Green and red boxes illustrate the zoom in results and error maps, respectively.
 
 ## Test Data
 In file './test_data_31', 31 complex-valued MRI data with size of 256x256 were acquired by using a 3D fast-spin-echo (FSE) sequence with T2 weighting from a 3.0T whole body MR system (SIEMENS MAGNETOM TrioTim).
