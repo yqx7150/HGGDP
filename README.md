@@ -21,6 +21,7 @@ python3 separate_siat.py --runner SIAT_TRAIN --config siat_config.yml --checkpoi
 python3 separate_siat.py --runner SIAT_MULTICHANNEL --config siat_config.yml --model hggdp --test
 ```
 
+## Graphical representation
  <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig6.png" width = "400" height = "450">  </div>
  
 Performance exhibition of “multi-view noise” strategy. (a) Training sliced score matching (SSM) loss and validation loss for each iteration. (b) Image quality comparison on the brain dataset at 15% radial sampling: Reconstruction images, error maps (Red) and zoom-in results (Green).
