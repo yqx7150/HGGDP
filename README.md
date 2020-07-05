@@ -4,10 +4,10 @@
 
 **Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yu Guan, Dong Liang, Yuhao Wang, Qiegen Liu 
 
-Date : 11/2018  
+Date : 6/2020  
 Version : 1.0  
 The code and the algorithm are for non-comercial use only.  
-Copyright 2018, Department of Electronic Information Engineering, Nanchang University.  
+Copyright 2020, Department of Electronic Information Engineering, Nanchang University.  
 Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China    
 Medical AI research center, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China 
 
