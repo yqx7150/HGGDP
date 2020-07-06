@@ -2,14 +2,14 @@
 
 **Paper**: HGGDP: Homotopic Gradients of Generative Density Priors for MR Image Reconstruction
 
-**Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yu Guan, Dong Liang, Yuhao Wang, Qiegen Liu*
+**Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yang Chen, Shanshan Wang, Dong Liang*, Qiegen Liu*
 
 Date : 6/2020  
 Version : 1.0  
 The code and the algorithm are for non-comercial use only.  
 Copyright 2020, Department of Electronic Information Engineering, Nanchang University.  
-Paul C. Lauterbur Research Center for Biomedical Imaging, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China    
-Medical AI research center, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China 
+
+Deep learning, particularly generative model, has demonstrated tremendous potential to significantly speed up image reconstruction with reduced measurements recently. In this work, by taking advantage of the denoising score matching, deep gradients of generative density priors (HGGDP) are proposed for MRI reconstruction. More precisely, to tackle the low-dimensional manifold and low data density region issues in generative density prior, we estimate the target gradients in higher-dimensional space. We train a more powerful noise conditional score network by forming higher-dimensional tensor as the network input at the training phase. More artificial noise is also injected in the embedding space. At the reconstruction stage, a homotopy method is employed to pursue the density prior, such as to boost the reconstruction performance. Experiment results imply the remarkable performance of HGGDP in terms of high reconstruction accuracy; only 10% of the k-space data can still generate images of high quality as effectively as standard MRI reconstruction with the fully sampled data.
 
 ## Training
 ```bash
