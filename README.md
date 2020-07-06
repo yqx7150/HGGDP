@@ -41,7 +41,7 @@ Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 .
 RECONSTRUCTION PSNR, SSIM AND HFEN VALUES OF THREE TEST IMAGES AT VARIOUS SAMPLING TRAJECTORIES AND UNDERSAMPLING PER-CENTAGES. 
 
 ## Checkpoints
-We provide pretrained checkpoints.you can download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1QIjU8kRUQ3i2pT6PvROlKQ). 
+We provide pretrained checkpoints. You can download pretrained models from [Baidu Drive](https://pan.baidu.com/s/1QIjU8kRUQ3i2pT6PvROlKQ). 
 key number is "awn0" 
 
 ## Test Data
