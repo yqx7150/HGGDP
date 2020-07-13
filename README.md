@@ -13,12 +13,12 @@ Deep learning, particularly generative model, has demonstrated tremendous potent
 
 ## Training
 ```bash
-python3 separate_siat.py --runner SIAT_TRAIN --config siat_config.yml --checkpoint your save path
+python3 separate_siat.py --exe SIAT_TRAIN --config siat_config.yml --checkpoint your save path
 ```
 
 ## Test
 ```bash
-python3 separate_siat.py --runner SIAT_MULTICHANNEL --config siat_config.yml --model hggdp --test
+python3 separate_siat.py --exe SIAT_MULTICHANNEL --config siat_config.yml --model hggdp --test
 ```
 
 ## Graphical representation
