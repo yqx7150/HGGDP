@@ -28,10 +28,8 @@ python3 separate_siat.py --exe SIAT_MULTICHANNEL_MODL --config siat_config.yml -
 ```bash
 python3 separate_siat.py --exe SIAT_MULTICHANNEL_DDP --config siat_config.yml --model hggdp --test
 ```
-In order to verify the fairness of the experiment, in the MoDL experiment comparison, we chose the test data, coil sensitivity maps and undersampling mask shared by Aggarwal et.al.  
-Orignal MoDL available code[<font size=5>**[Code]**</font>](https://github.com/hkaggarwal/modl)  
-In the DDP experiment comparison, we chose the test data, coil sensitivity maps, undersampleing patterns and undersampling mask shared by Tezcan et.al.  
-Orignal DDP available code[<font size=5>**[Code]**</font>](https://github.com/kctezcan/ddp_recon)  
+In order to verify the fairness of the experiment, in the MoDL experiment comparison, we chose the test data, coil sensitivity maps and undersampling mask shared by Aggarwal et.al. Orignal MoDL available code[<font size=5>**[Code]**</font>](https://github.com/hkaggarwal/modl)  
+In the DDP experiment comparison, we chose the test data, coil sensitivity maps, undersampleing patterns and undersampling mask shared by Tezcan et.al. Orignal DDP available code[<font size=5>**[Code]**</font>](https://github.com/kctezcan/ddp_recon)  
 
 ## Graphical representation
  <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig6.png" width = "400" height = "450">  </div>
