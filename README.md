@@ -20,7 +20,18 @@ python3 separate_siat.py --exe SIAT_TRAIN --config siat_config.yml --checkpoint 
 ```bash
 python3 separate_siat.py --exe SIAT_MULTICHANNEL --config siat_config.yml --model hggdp --test
 ```
-
+## Compare_MoDL
+```bash
+python3 separate_siat.py --exe SIAT_MULTICHANNEL_MODL --config siat_config.yml --model hggdp --test
+```
+## Compare_DDP
+```bash
+python3 separate_siat.py --exe SIAT_MULTICHANNEL_DDP --config siat_config.yml --model hggdp --test
+```
+In order to verify the fairness of the experiment, in the MoDL experiment comparison, we chose the test data, sensitivity coil and undersampling mask shared by Aggarwal et.al.
+Orignal MoDL available code[<font size=5>**[Code]**</font>](https://github.com/hkaggarwal/modl)
+In the DDP experiment comparison, we chose the test data, sensitivity coil, undersampleing pattern and undersampling mask shared by Tezcan et.al.
+Orignal DDP available code[<font size=5>**[Code]**</font>](https://github.com/kctezcan/ddp_recon)
 ## Graphical representation
  <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig6.png" width = "400" height = "450">  </div>
  
@@ -35,6 +46,16 @@ Pipeline of sampling from the high-dimensional noisy data distribution with mult
 <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/fig11.png"> </div>
 
 Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 . Top: Reference, reconstruction by DLMRI, PANO, FDLCP; Bottom: Reconstruction by NLR-CS, DC-CNN, EDAEPRec, HGGDPRec. Green and red boxes illustrate the zoom in results and error maps, respectively.
+
+## Reconstruction Results by Various Methods at various 1D Cartesian undersampling percentages.
+<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/compare_DDP.PNG"> </div>
+
+Complex-valued reconstruction results on brain image at various 1D Cartesian undersampling percentages (R=2, 3). From left to right: Ground-truth, various 1D Cartesian undersampling masks, reconstruction by Zero-Filled, DDP and HGGDPRec.
+
+## Reconstruction Results by Various Methods at 6-fold 2D Random undersampling mask.
+<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/compare_MoDL.PNG"> </div>
+
+Complex-valued reconstruction results on brain image at 16.7% 2D random sampling. From left to right: Ground-truth, 6-fold 2D random undersample mask, reconstruction by Zero-Filled, MoDL and HGGDPRec.
 
 ## Table
 <div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/table1.png"> </div>
