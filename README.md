@@ -95,3 +95,6 @@ In file './test_data_31', 31 complex-valued MRI data with size of 256x256 were a
 
 * Progressive Colorization via Interative Generative Models  
 [<font size=5>**[Paper]**</font>](https://ieeexplore.ieee.org/document/9258392)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/iGM)
+
+* Joint Intensity-Gradient Guided Generative Modeling for Colorization
+[<font size=5>**[Paper]**</font>](https://arxiv.org/abs/2012.14130)   [<font size=5>**[Code]**</font>](https://github.com/yqx7150/JGM)
