@@ -47,12 +47,12 @@ Pipeline of sampling from the high-dimensional noisy data distribution with mult
 Reconstruction comparison on pseudo radial sampling at acceleration factor 6.7 . Top: Reference, reconstruction by DLMRI, PANO, FDLCP; Bottom: Reconstruction by NLR-CS, DC-CNN, EDAEPRec, HGGDPRec. Green and red boxes illustrate the zoom in results and error maps, respectively.
 
 ## Reconstruction Results by Various Methods at various 1D Cartesian undersampling percentages.
-<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/compare_DDP.png"> </div>
+<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/compare_DDP.PNG"> </div>
 
 Complex-valued reconstruction results on brain image at various 1D Cartesian undersampling percentages (R=2, 3). From left to right: Ground-truth, various 1D Cartesian undersampling masks, reconstruction by Zero-Filled, DDP and HGGDPRec.
 
 ## Reconstruction Results by Various Methods at 6-fold 2D Random undersampling mask.
-<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/compare_MoDL.PNG"> </div>
+<div align="center"><img src="https://github.com/yqx7150/HGGDP/blob/master/hggdp_rec/sample/Compare_MoDL.png"> </div>
 
 Complex-valued reconstruction results on brain image at 16.7% 2D random sampling. From left to right: Ground-truth, 6-fold 2D random undersample mask, reconstruction by Zero-Filled, MoDL and HGGDPRec.
 
