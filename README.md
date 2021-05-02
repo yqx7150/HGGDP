@@ -82,8 +82,8 @@ In file './test_data_31', 31 complex-valued MRI data with size of 256x256 were a
 
   * Complex-valued MRI data from SIAT--test31 [<font size=5>**[Data]**</font>](https://github.com/yqx7150/EDAEPRec/tree/master/test_data_31)
   * More explanations with regard to the MoDL test datasets, we use some data from the test dataset in "dataset.hdf5" file, where the image slice numbers are 40,48,56,64,72,80,88,96,104,112(https://drive.google.com/file/d/1qp-l9kJbRfQU1W5wCjOQZi7I3T6jwA37/view)
-  * DDP Method Link [<font size=5>**[Data]**</font>](https://github.com/kctezcan/ddp_recon)
-  * MoDL Method Link [<font size=5>**[Data]**</font>](https://github.com/hkaggarwal/modl)
+  * DDP Method Link [<font size=5>**[DDP Code]**</font>](https://github.com/kctezcan/ddp_recon)
+  * MoDL Method Link [<font size=5>**[MoDL code]**</font>](https://github.com/hkaggarwal/modl)
   * Complex-valued MRI data from SIAT--SIAT_MRIdata200 [<font size=5>**[Data]**</font>](https://github.com/yqx7150/SIAT_MRIdata200)
  
   * Learning Multi-Denoising Autoencoding Priors for Image Super-Resolution  
