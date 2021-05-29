@@ -6,7 +6,7 @@
 
 IEEE Transactions on Medical Imaging, https://ieeexplore.ieee.org/abstract/document/9435335   
 
-Date : 6/2020  
+Date : May-22-2021  
 Version : 1.0  
 The code and the algorithm are for non-comercial use only.  
 Copyright 2020, Department of Electronic Information Engineering, Nanchang University.  
