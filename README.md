@@ -87,6 +87,7 @@ In file './test_data_31', 31 complex-valued MRI data with size of 256x256 were a
   * DDP Method Link [<font size=5>**[DDP Code]**</font>](https://github.com/kctezcan/ddp_recon)
   * MoDL Method Link [<font size=5>**[MoDL code]**</font>](https://github.com/hkaggarwal/modl)
   * Complex-valued MRI data from SIAT--SIAT_MRIdata200 [<font size=5>**[Data]**</font>](https://github.com/yqx7150/SIAT_MRIdata200)  
+  * Complex-valued MRI data from SIAT--SIAT_MRIdata500-singlecoil [<font size=5>**[Data]**</font>](https://github.com/yqx7150/SIAT500data-singlecoil)   
   * Complex-valued MRI data from SIAT--SIAT_MRIdata500-12coils [<font size=5>**[Data]**</font>](https://github.com/yqx7150/SIAT500data-12coils)    
  
   * Learning Multi-Denoising Autoencoding Priors for Image Super-Resolution  
