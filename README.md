@@ -4,7 +4,7 @@
 
 **Authors**: Cong Quan, Jinjie Zhou, Yuanzheng Zhu, Yang Chen, Shanshan Wang, Dong Liang*, Qiegen Liu*   
 
-IEEE Transactions on Medical Imaging, https://ieeexplore.ieee.org/abstract/document/9435335   
+IEEE Transactions on Computational Imaging, vol. 12, pp. 309-320, 2026, https://ieeexplore.ieee.org/document/11345970   
 
 Date : May-22-2021  
 Version : 1.0  
